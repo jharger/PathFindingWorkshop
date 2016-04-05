@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+.appBase {
+  width: 100%;
+  height: 100%;
+  background: #2e2e2e url('./images/agdg_background.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,25 @@
+.canvasContainer {
+  border: 1px solid #2e2e2e;
+  box-shadow: 2px 2px 5px #212121;
+  background-color: #999988;
+  width: 640px;
+}
+
+.canvasItself {
+  background-color: #444444;
+}
+
+.controlContainer {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 48px;
+}
+
+.algSelect {
+  background-color: #888888;
+}
+
