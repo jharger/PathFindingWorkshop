@@ -109,11 +109,11 @@ class PriorityQueue {
       right = left + 1;
       minIndex = pos;
 
-      if (left <= last && this.compare(this._queue[left], this._queue[minIndex])) {
+      if (left <= last && this.compare(this._queue[left], this._queue[minIndex]) < 0) {
         minIndex = left;
       }
 
-      if (right <= last && this.compare(this._queue[right], this._queue[minIndex])) {
+      if (right <= last && this.compare(this._queue[right], this._queue[minIndex]) < 0) {
         minIndex = right;
       }
 
@@ -136,8 +136,8 @@ class PriorityQueue {
     let priority2 = item2.priority;
 
     if (priority1 === priority2) {
-      priority1 = item1.serial;
-      priority2 = item2.serial;
+      priority2 = item1.serial;
+      priority1 = item2.serial;
     }
 
     return priority1 - priority2;

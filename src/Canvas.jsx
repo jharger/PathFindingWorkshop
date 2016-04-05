@@ -11,6 +11,7 @@ import Grid from './Grid.js';
 import BreadthFirstSearch from './algorithms/BreadthFirstSearch.js';
 import DepthFirstSearch from './algorithms/DepthFirstSearch.js';
 import BestFirstSearch from './algorithms/BestFirstSearch.js';
+import Dijkstra from './algorithms/Dijkstra.js';
 import AStar from './algorithms/AStar.js';
 
 import {
@@ -31,6 +32,10 @@ const algorithms = [
   {
     name: 'Best First Search',
     alg: BestFirstSearch
+  },
+  {
+    name: 'Dijkstra\'s Algorithm',
+    alg: Dijkstra
   },
   {
     name: 'A*',
